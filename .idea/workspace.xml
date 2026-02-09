@@ -5,12 +5,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2474823d-dfb1-4d71-8d8c-4c279360428f" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/cores/TokenUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/is/lab1/beans/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/is/lab1/beans/Coordinates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/is/lab1/beans/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/is/lab1/beans/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/is/lab1/beans/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/is/lab1/beans/MovieGenre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/is/lab1/beans/MpaaRating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/is/lab1/beans/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/is/lab1/dto/CoordinatesDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/is/lab1/dto/LocationDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/is/lab1/dto/MovieDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/is/lab1/dto/PersonDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/is/lab1/filters/CORSFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/is/lab1/mapper/CoordinatesMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/is/lab1/mapper/LocationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/is/lab1/mapper/MovieMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/is/lab1/mapper/PersonMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/is/lab1/repository/CoordinatesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/is/lab1/repository/LocationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/is/lab1/repository/MovieRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/is/lab1/repository/PersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/is/lab1/resource/CoordinatesResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/is/lab1/resource/LocationResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/is/lab1/resource/MovieResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/is/lab1/resource/PersonResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/is/lab1/websockets/MovieWebSocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/beans/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/beans/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/controllers/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/controllers/Index.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/controllers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/controllers/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/MyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/is/lab1/MyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/beans/Point.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/beans/Results.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/beans/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/controllers/Index.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/controllers/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/cores/Authentificator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/cores/PointChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/cores/TokenUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/cores/Validator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/dao/ResultsDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/dao/UserDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/exceptions/UnknownLoginException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/exceptions/UserExistsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/exceptions/WrongCoordinatesException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/se/ifmo/web/lab4/exceptions/WrongPasswordException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db-credentials.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db-credentials.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +88,10 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/Petrign/Проги/Web/ITMOWebLab4-back&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/Petrign/Проги/pisk&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>

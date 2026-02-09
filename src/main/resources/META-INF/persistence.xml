@@ -1,29 +1,26 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_1.xsd"
-             version="3.0">
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+                                 http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd"
+             version="2.2">
+    <persistence-unit name="moviesPU" transaction-type="JTA">
+        <class>ru.se.ifmo.is.lab1.beans.Movie</class>
+        <class>ru.se.ifmo.is.lab1.beans.Person</class>
+        <class>ru.se.ifmo.is.lab1.beans.Coordinates</class>
+        <class>ru.se.ifmo.is.lab1.beans.Location</class>
 
-    <persistence-unit name="user">
-        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-        <class>ru.se.ifmo.web.lab4.beans.User</class>
         <properties>
-            <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/lab4?useSSL=false"/>
-            <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver"/>
-            <property name="jakarta.persistence.jdbc.user" value="petrign"/>
-            <property name="jakarta.persistence.jdbc.password" value="q"/>
-            <property name="hibernate.hbm2ddl.auto" value="update"/>
-        </properties>
-    </persistence-unit>
-    <persistence-unit name="results">
-        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-        <class>ru.se.ifmo.web.lab4.beans.Results</class>
-        <properties>
-            <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/lab4?useSSL=false"/>
-            <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver"/>
-            <property name="jakarta.persistence.jdbc.user" value="petrign"/>
-            <property name="jakarta.persistence.jdbc.password" value="q"/>
-            <property name="hibernate.hbm2ddl.auto" value="update"/>
+            <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/studs"/>
+            <property name="javax.persistence.jdbc.user" value="s408693"/>
+            <property name="javax.persistence.jdbc.password" value="Bz0CyvPlvRB5J307"/>
+            <property name="javax.persistence.schema-generation.database.action" value="update"/>
+
+            <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
+
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
         </properties>
     </persistence-unit>
 </persistence>
