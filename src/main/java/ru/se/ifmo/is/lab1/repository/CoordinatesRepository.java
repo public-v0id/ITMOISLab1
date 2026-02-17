@@ -1,6 +1,5 @@
 package ru.se.ifmo.is.lab1.repository;
 
-import javax.ejb.Stateless;
 import javax.enterprise.context.ApplicationScoped;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;

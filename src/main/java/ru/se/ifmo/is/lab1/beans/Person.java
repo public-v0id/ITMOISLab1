@@ -2,6 +2,7 @@ package ru.se.ifmo.is.lab1.beans;
 
 import javax.persistence.*;
 import javax.validation.constraints.*;
+import java.util.List;
 
 @Entity(name="person")
 @Table(name="person")
@@ -33,6 +34,22 @@ public class Person {
     @Enumerated(EnumType.STRING)
     @Column(name = "nationality")
     private Country nationality;
+
+    @OneToMany(mappedBy = "director",
+            cascade = CascadeType.REMOVE,
+            orphanRemoval = true)
+    private List<Movie> directorMovies;
+
+    @OneToMany(mappedBy = "screenwriter",
+            cascade = CascadeType.REMOVE,
+            orphanRemoval = true)
+    private List<Movie> screenwriterMovies;
+
+    @OneToMany(mappedBy = "operator",
+            cascade = CascadeType.REMOVE,
+            orphanRemoval = true)
+    private List<Movie> operatorMovies;
+
 
     public void setId(Long id) { this.id = id; }
 

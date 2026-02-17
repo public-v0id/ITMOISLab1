@@ -15,6 +15,9 @@ public class MyApplication extends Application {
         classes.add(ru.se.ifmo.is.lab1.resource.PersonResource.class);
         classes.add(ru.se.ifmo.is.lab1.resource.CoordinatesResource.class);
         classes.add(ru.se.ifmo.is.lab1.resource.LocationResource.class);
+        classes.add(ru.se.ifmo.is.lab1.resource.ImportResource.class);
+        classes.add(ru.se.ifmo.is.lab1.resource.AdminResource.class);
+        classes.add(ru.se.ifmo.is.lab1.resource.ImportHistoryResource.class);
         return classes;
     }
 }
